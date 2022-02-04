@@ -11,4 +11,4 @@ enter the second string: n
 (gdb) n
 34    return 0;
 (gdb) n
-35  }
+  }
