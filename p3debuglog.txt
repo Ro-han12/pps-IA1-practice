@@ -8,4 +8,4 @@ enter the number: n
 (gdb) n
 28    return 0;
 (gdb) n
-29  }
+ }
