@@ -1,0 +1,11 @@
+Breakpoint 1, main () at p5original.c:29
+29    n=input();
+(gdb) n
+enter number to find sqrt: n
+30    sqrt=my_sqrt(n);
+(gdb) n
+31    output(n,sqrt);
+(gdb) n
+32    return 0;
+(gdb) n
+33  }

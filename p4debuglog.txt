@@ -1,0 +1,18 @@
+
+Breakpoint 1, main () at p4original.c:35
+35  {
+(gdb) n
+38    n=input_array_size();
+(gdb) n
+enter the number of terms: n
+39    int a[n];
+(gdb) n
+40    input_array(n,a);
+(gdb) n
+41    sum=sum_n_arrays(n,a);
+(gdb) n
+42    out_put(n,a,sum);
+(gdb) n
+43    return 0;
+(gdb) n
+48  }
