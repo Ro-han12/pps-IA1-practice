@@ -1,0 +1,15 @@
+Breakpoint 1, main () at p2original.c:27
+27    a=input();
+(gdb) n
+enter a number: n
+28    b=input();
+(gdb) n
+29    c=input();
+(gdb) n
+30    big=cmp(a,b,c);
+(gdb) n
+31    output(big);
+(gdb) n
+32    return 0;
+(gdb) n
+33  }
