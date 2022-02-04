@@ -1,0 +1,14 @@
+Breakpoint 1, main () at p6original.c:28
+28  {
+(gdb) n
+31    input_two_string(a,b);
+(gdb) n
+enter the first string: n
+enter the second string: n
+32    t=cmp(a,b);
+(gdb) n
+33    output(a,b,t);
+(gdb) n
+34    return 0;
+(gdb) n
+35  }
