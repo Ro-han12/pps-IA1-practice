@@ -10,4 +10,4 @@ enter 1st numbern
 (gdb) n
 23    return a;
 (gdb) n
-24  }
+  }
