@@ -1,0 +1,11 @@
+Breakpoint 1, main () at p3original.c:25
+25    n=input();
+(gdb) n
+enter the number: n
+26    su=sum(n);
+(gdb) n
+27    output(n,su);
+(gdb) n
+28    return 0;
+(gdb) n
+29  }
