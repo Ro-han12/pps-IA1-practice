@@ -1,0 +1,13 @@
+reakpoint 1, main () at p1original.c:18
+18  {
+(gdb) n
+20    input(&a,&b);
+(gdb) n
+enter 1st numbern
+21    add(a,b,&sum);
+(gdb) n
+22    output(a,b,sum);
+(gdb) n
+23    return a;
+(gdb) n
+24  }
