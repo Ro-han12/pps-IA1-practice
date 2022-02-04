@@ -1,10 +1,10 @@
 #include<stdio.h>
 float input()
 {
-  int n;
+  int a;
   printf("enter number to find sqrt: ");
-  scanf("%d",&n);
-  return n;
+  scanf("%d",&a);
+  return a;
 }
 float my_sqrt(float n)
 {
