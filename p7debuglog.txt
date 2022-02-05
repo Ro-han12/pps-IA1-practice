@@ -1,0 +1,17 @@
+
+Breakpoint 1, main () at p7original.c:31
+31    t1=input();
+(gdb) n
+enter the real part: n
+enter the imaginary part: n
+32    t2=input();
+(gdb) n
+enter the real part: n
+enter the imaginary part: n
+33    sum=add(t1,t2);
+(gdb) n
+34    output(t1,t2,sum);
+(gdb) n
+35    return 0;
+(gdb) n
+36  }
