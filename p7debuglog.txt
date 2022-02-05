@@ -14,4 +14,4 @@ enter the imaginary part: n
 (gdb) n
 35    return 0;
 (gdb) n
-36  }
+ }
